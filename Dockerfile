@@ -8,4 +8,4 @@ COPY target/gateway-service-0.0.1-SNAPSHOT.jar gateway-service.jar
 
 EXPOSE 8080
 
-CMD ["java","-jar","discovery-server.jar"]
+CMD ["java","-jar","gateway-service.jar"]
